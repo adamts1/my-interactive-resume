@@ -19,10 +19,6 @@
         $('body').toggleClass('search-form-on');
     });
 
-    $(".navbar-toggler").on('click', function () {
-          $("#fancyNav").toggleClass("show");
-    });
-
 
     // Progress Bar Active Code
     if ($.fn.barfiller) {
