@@ -186,4 +186,11 @@
     .blog-sidebar {
         margin-top: 100px;
     }
+
+
+    @media screen and (max-width: 940px) {
+        #abilities {
+         padding: 40px;
+        }
+      }
 }
