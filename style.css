@@ -102,6 +102,10 @@ li {
   height: 100%;
 }
 
+#fancyNav li:hover  a{
+    color: yellowgreen;
+}
+
 .overlay{
   position: absolute;
   top: 0;
