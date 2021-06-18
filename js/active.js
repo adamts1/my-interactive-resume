@@ -19,6 +19,11 @@
         $('body').toggleClass('search-form-on');
     });
 
+    $('#scrollUp').on('click', function () {
+        console.log("Ggggg")
+    });
+
+
 
     // Progress Bar Active Code
     if ($.fn.barfiller) {
@@ -39,7 +44,7 @@
         });
         $('#bar4').barfiller({
             tooltip: true,
-            duration: 1000,
+            duration: 1000,     
             animateOnResize: true
         });
     }
@@ -47,7 +52,7 @@
     // ScrollUp Active Code
     if ($.fn.scrollUp) {
         $.scrollUp({
-            scrollSpeed: 2500,
+            scrollSpeed: 1,
             scrollText: '<i class="fa fa-angle-up" aria-hidden="true"></i>'
         });
     }
