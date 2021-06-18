@@ -677,6 +677,11 @@ figcaption{
     padding-bottom: 100px;
 }
 
+.about-us-text{
+    margin-top: 27px !important;
+    text-align: center !important;
+}
+
 .about-us-text > h2 {
     font-size: 38px;
     margin-bottom: 25px;
